@@ -64,16 +64,20 @@ body {
 .content__container h2 {
     margin-bottom: 20px;
     color: rgba(0, 0, 0, 1);
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
     line-height: 60px;
 }
 
 .content__container p {
     color: rgb(0, 0, 0, 1);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 32px;
+}
+
+.content__container strong {
+    font-weight: 700;
 }
 
 .content__image {
@@ -110,6 +114,14 @@ body {
 
     .content__container {
         width: 100%;
+    }
+
+    .content__container h2 {
+        font-size: 30px;
+    }
+
+    .content__container p {
+        font-size: 18px;
     }
 
     .content__case,
